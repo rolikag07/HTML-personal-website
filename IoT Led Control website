@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bolt IoT Platform</title>
+    <script type="text/javascript" src="https://cloud.boltiot.com/static/js/boltCommands.js"></script>
+     <script type="text/javascript">setKey('{{ApiKey}}','{{Name}}');</script>
+</head>
+      <body style="background-color:lightblue;" link="#000" alink="#017bf5" vlink="#000">
+        
+        <br />
+        <h3 align="center">
+            <font face="Lato" size="6">IOT-PROJECT</font>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <font face="cinzel">
+                 <a href="#">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href="#">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href="#">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                 <a href="#">CONTACT</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            </font>
+        </h3>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <h1 align="center">
+          <font face="Lato" color="#017bf5" size="7">
+          CONTROL LED LIGHT AT YOUR EASE
+          </font><br>
+          </h1><br>
+          <center>
+        <button style=border-color:DarkBlue; onclick="digitalWrite(0, 'HIGH');"><h2>ON</h2></button>
+        <button style=border-color:DarkBlue; onclick="digitalWrite(0, 'LOW');"><h2>OFF</h2></button><br>
+        </center>
+    </body>
+</html>
